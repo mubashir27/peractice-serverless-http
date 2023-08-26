@@ -12,7 +12,7 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
 # Serverless Framework Node Express API on AWS
-
+domain `lcehxplbnj.execute-api.us-east-1.amazonaws.com`
 This template demonstrates how to develop and deploy a simple Node Express API service running on AWS Lambda using the traditional Serverless Framework.
 
 ## Anatomy of the template
