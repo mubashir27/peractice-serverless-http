@@ -1,14 +1,16 @@
 org: mubashirsiddiqui
 app: testing
 service: peractice-serverless-http
-frameworkVersion: '3'
+frameworkVersion: "3"
 
 provider:
   name: aws
   runtime: nodejs18.x
+  memorySize: 128
+  stage: ${opt:stage, 'dev'}
 
 functions:
   api:
     handler: index.handler
     events:
-      - httpApi: '*'
+      - httpApi: "*"
